@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="wrapper">
+        <div class="mySlides background1">
+            <div class="mySlides__inner">
+                <h1>Group project</h1>
+                <button onclick="toggleMode()" id="button">Toggle Dark-Mode</button>
+            </div>
+        </div>
+        <div class="mySlides background2">
+            <div class="mySlides__inner">
+                <h1>Next Header</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit officiis sit voluptate molestias blanditiis quis. Tenetur, fugit molestias accusantium doloribus dignissimos excepturi. Quis mollitia nesciunt esse incidunt minima numquam qui?</p>
+            </div>
+        </div>
+        <div class="mySlides background3">
+            <div class="mySlides__inner">
+                <h1>Header 3</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit officiis sit voluptate molestias blanditiis quis. Tenetur, fugit molestias accusantium doloribus dignissimos excepturi. Quis mollitia nesciunt esse incidunt minima numquam qui?</p>
+            </div>
+        </div>
+        <div class="navigation">
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+    </div>
+       
+        
+    <script src="./myscript.js"></script>
 </body>
 </html>

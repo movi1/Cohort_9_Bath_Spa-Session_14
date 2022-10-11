@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+.mySlides {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.mySlides__inner {
+    z-index:10;
+}
+
+.background1 {
+    background-image: url("./daisys-1392171.jpg");
+}
+
+.background2 {
+    background-image: url("./palm-leaves-baie-lazare-mahe-island-seychelles-3869777.jpg");
+}
+
+.background3 {
+    background-image: url("./lake-1332261.jpg");
+}
+
+.wrapper h1 {
+    margin:0;
+}
+.mySlides.darkMode {
+    filter: invert(100%);
+}
+.navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    position:absolute;
+    height: 100%;
+    left:0;
+    top:0;
+    z-index:0;
+}
+.navigation a {
+    font-size: 4rem;
+    color:#fff;
+    cursor:pointer;
+}
